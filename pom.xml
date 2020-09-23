@@ -26,6 +26,13 @@
   </properties>
 
   <dependencies>
+    <!--lombok相关-->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.12</version>
+    </dependency>
+
     <!--javax-->
     <dependency>
       <groupId>javax</groupId>
@@ -127,7 +134,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.13</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
